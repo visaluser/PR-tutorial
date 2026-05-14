@@ -23,9 +23,8 @@ jobs:
       security-events: write
 
     strategy:
-      fail-fast: false
       matrix:
-        language: [ 'php' ]
+        language: [ php ]
 
     steps:
       - name: Checkout Repository
